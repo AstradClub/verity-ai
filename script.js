@@ -36,14 +36,27 @@ function sendMessage() {
     messageInput.value = "";
 
     // Demo response
-    setTimeout(() => {
+  setTimeout(() => {
+
+    const calculation = calculate(text);
+
+    if (calculation !== null) {
+
+        addMessage(
+            "The answer is " + calculation,
+            "verity"
+        );
+
+    } else {
 
         addMessage(
             "I'm Verity. I'm still being built, but soon I'll be much smarter!",
             "verity"
         );
 
-    }, 700);
+    }
+
+}, 700);
 }
 
 
