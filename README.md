@@ -1,2 +1,0 @@
-# verity-ai
-Verity-Chatbot
