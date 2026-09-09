@@ -40,21 +40,21 @@ function sendMessage() {
 
     const calculation = calculate(text);
 
-    if (calculation !== null) {
+ if (calculation !== null) {
 
-        addMessage(
-            "The answer is " + calculation,
-            "verity"
-        );
+    addMessage(
+        "The answer is " + calculation,
+        "verity"
+    );
 
-    } else {
+} else {
 
-        addMessage(
-            "I'm Verity. I'm still being built, but soon I'll be much smarter!",
-            "verity"
-        );
+    addMessage(
+        "I'm Verity. I don't know how to answer that yet.",
+        "verity"
+    );
 
-    }
+}
 
 }, 700);
 }
